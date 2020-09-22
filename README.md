@@ -20,6 +20,7 @@
 | name                  | string     | null: false                    |
 | introduction          | text       | null: false                    |
 | prefecture            | integer    | null: false, foreign_key: true |
+| rank                  | integer    | null: false, foreing_key: true |
 | user_id               | integer    | null: false, foreign_key: true |
 
 ### Association
