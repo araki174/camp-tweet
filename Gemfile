@@ -59,3 +59,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'pry-rails'
 
 gem 'devise'
+gem "aws-sdk-s3", require: false
+group :production do
+  gem 'rails_12factor'
+end
