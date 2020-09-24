@@ -72,6 +72,7 @@ Gayzo URL : https://gyazo.com/4687d952ea6fc6d52191191fff78f6ab
 ### Association
 - belongs_to :user
 - has_many :comments
+- has_one_attached :image
 
 ## commentsテーブル
 | Column                | Type    | Options                        |
