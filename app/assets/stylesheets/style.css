@@ -738,7 +738,7 @@ header.header div.header__bar.row div.grid-6 a.post:hover {
 header.header {
   padding: 10px;
   border-bottom: 1px solid #D8D8D8;
-  background-color: #fff;
+  background-color: #CCFFFF;
   position: fixed;
   top: 0;
   left: 0;
@@ -1056,4 +1056,8 @@ footer p {
 
 .search-form .search-btn {
   width: 10%;
+}
+
+.body{
+  background-color: #CCFF99;
 }
